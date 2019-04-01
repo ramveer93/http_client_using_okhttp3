@@ -94,27 +94,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
-
-
-	<!-- <profiles> <profile> <id>runSonar</id> <activation> <property> <name>runSonar</name> 
-		<value>true</value> </property> </activation> <properties> <jacoco.destFile>${basedir}/target/jacoco_analysis/jacoco.exec</jacoco.destFile> 
-		<sonar.host.url>http://localhost:9000/</sonar.host.url> <sonar.language>java</sonar.language> 
-		<sonar.jacoco.reportMissing.force.zero>true</sonar.jacoco.reportMissing.force.zero> 
-		<sonar.jacoco.reportPaths>${jacoco.destFile}</sonar.jacoco.reportPaths> </properties> 
-		<build> <plugins> <plugin> <groupId>org.jacoco</groupId> <artifactId>jacoco-maven-plugin</artifactId> 
-		<version>0.5.10.201208310627</version> <configuration> <skip>${maven.test.skip}</skip> 
-		<output>file</output> <append>true</append> </configuration> <executions> 
-		<execution> <id>jacoco-initialize</id> <goals> <goal>prepare-agent</goal> 
-		</goals> </execution> <execution> <id>jacoco-site</id> <phase>verify</phase> 
-		<goals> <goal>report</goal> </goals> </execution> </executions> </plugin> 
-		</plugins> <pluginManagement> <plugins> <plugin> <groupId>org.sonarsource.scanner.maven</groupId> 
-		<artifactId>sonar-maven-plugin</artifactId> <version>${sonar.maven.version}</version> 
-		</plugin> <plugin> <groupId>org.jacoco</groupId> <artifactId>jacoco-maven-plugin</artifactId> 
-		<version>${jacoco.version}</version> </plugin> </plugins> </pluginManagement> 
-		</build> </profile> </profiles> -->
-
-
-
 </project>
