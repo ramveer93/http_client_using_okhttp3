@@ -31,9 +31,9 @@ but for that you should have sonar install and started in your system and settin
 You can ignore above two commands if you just want the okhttp client.
 
 ## Usage
-Once maven build is successful, the application will run on default port of `8080`. You can change it by changing the entry inside resources/application.properties as below
+Once maven build is successful, the application will run on default port of `8080`. You can change it by changing/creating the entry inside resources/application.properties as below
 ```Java Properties
-server.port=8081
+server.port=8080
 ```
 Once it is done , you can start the application.
 From here you can either go to swagger documentation or use postman to hit the request. Below is the url for swagger documentation
