@@ -42,6 +42,56 @@ From here you can either go to swagger documentation or use postman to hit the r
 http://localhost:8080/swagger-ui.html
 ```
 This is how the swagger request will looks like:
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/okhttp3_swagger.png"></img>
+
+### Request explained
+
+#### Request URL
+
+```Java Properties
+http://<host>:<port>/restclient/execute
+```
+#### Request Headers
+
+````bash
+Content-Type : application/json
+````
+#### Request Body
+```JSON
+{
+  "url": "https://testexternalapi.free.beeceptor.com/my/api/path",
+  "requestMethod": "POST",
+  "header": {
+    "ContentType": "applicaiton/json"
+  },
+  "queryParams": {},
+  "requestBody": {
+    "data": "Hello Beeceptor"
+  }
+}
+```
+## Request samples
+
+### POST request 
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/post_request.png"></img>
+
+### PUT request
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/put.png"></img>
+
+### GET request
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/get.png"></img>
+
+### DELETE request
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/delete.png"></img>
+
+### HEAD request 
+<img src = "https://github.com/ramveer93/http_client_using_okhttp3/blob/master/src/main/resources/images/head.png"></img>
+
+## Contributing
+Please raise an issue if you find anything which is not working or want unimplemented functionality.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
